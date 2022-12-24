@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px 0px 30px 115px;
+}
+main {
+  background: url("https://fly.io/public/images/session-pattern.png");
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.part1 {
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(75 115 222),
+    rgb(124 50 157)
+  );
+  opacity: 0.95;
+}
+.part1-content {
+  height: 550px;
+  width: 400px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 9px;
+  margin-top: 30px;
+  margin-bottom: 9px;
+}
+input:focus {
+  background-color: rgb(159, 238, 218);
+}
+
+input {
+  height: 50px;
+  width: 260px;
+  font-size: 18px;
+  margin-left: 70px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+button {
+  margin-top: 60px;
+  margin-left: 130px;
+  color: rgb(16, 17, 17);
+  height: 35px;
+  width: 130px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+button:active {
+  background-color: rgb(112, 163, 112);
+}
+
+button:hover,
+img:hover,
+input:hover {
+  border: 3px solid black;
+}
+
+.part1:hover {
+  box-shadow: 10px 5px 5px rgb(236, 152, 143);
+  border: 3px solid salmon;
+}
